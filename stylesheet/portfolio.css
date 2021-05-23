@@ -65,7 +65,7 @@ html {
   /* This animation effect causes the overlay video text to move up from the bottom of the page upon page load */
   @keyframes movevideoText {
     from {top: -100vw;}
-    to {top: 0px;}
+    to {top: -60px;}
   }
   
   /* Navbar hover effect */
@@ -111,7 +111,7 @@ html {
       width: 100%;
       padding-top: .1vh; /* This adds padding around the text so that the background goes slightly beyond the text */
       padding-bottom: 1vh;
-      margin-top: 23%;
+      margin-top: 15%;
       position: relative;
       -webkit-animation: moveNav 4s; /* Safari 4.0 - 8.0 */
       animation: movevideoText 4s;
